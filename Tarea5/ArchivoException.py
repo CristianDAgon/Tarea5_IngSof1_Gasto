@@ -1,0 +1,2 @@
+class ArchivoException(Exception):
+    pass
