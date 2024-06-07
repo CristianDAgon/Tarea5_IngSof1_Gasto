@@ -1,8 +1,9 @@
 from Tarea5.TipoGasto import TipoGasto
 from Tarea5.TipoPago import TipoPago
+from datetime import date
 
 class Gasto:
-    def __init__(self, fecha: str, valor: int, tipo_pago: TipoPago, tipo_gasto: TipoGasto, moneda: str):
+    def __init__(self, fecha: date, valor: int, tipo_pago: TipoPago, tipo_gasto: TipoGasto, moneda: str):
         self.fecha = fecha  # Tipo str
         self.valor = valor  # Tipo float
         self.tipo_pago = tipo_pago  # Tipo TipoPago (enumeración)

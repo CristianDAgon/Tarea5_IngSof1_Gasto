@@ -13,11 +13,11 @@ class ConversorDivisas:
         :param moneda:  tipo de moneda en el pais en el que esta
         :return:  el valor convertido a peso colombiano
         """
-        if moneda == "USD":
+        if moneda.upper()== "USD":
             valor_convertido = ConversorDivisas._obtener_tasa_conversion()
-        elif moneda == "EUR":
+        elif moneda.upper() == "EUR":
             valor_convertido = ConversorDivisas._obtener_tasa_conversion() + 200
-        elif moneda == "COP":
+        elif moneda.upper()== "COP":
             return valor
 
         else:
