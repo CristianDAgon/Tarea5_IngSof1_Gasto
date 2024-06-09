@@ -17,9 +17,5 @@ A
 Tarea5/Archivo.py,d\9\d97e539a6551620d61bdae34085a64d0157e82e8
 J
 Tarea5/ArchivoException.py,0\b\0b85c833575df8292ee03ab21af25cc08b644112
-<
-Tarea5/aa.py,c\9\c968c1929aa57cfa66581ef8a66bd248455b69eb
 J
 test/test_registarGasto.py,4\6\46b97b08625de7a357c3a1b7ee03ba5d211b225c
-I
-Tarea5/MonedaException.py,2\6\26dfcf5acf808599e79dce41e8c40ed3ca52aa6a
